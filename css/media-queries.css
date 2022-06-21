@@ -1,4 +1,4 @@
-@media screen and (max-width: 500px){
+@media screen and (max-width: 700px){
     body{
         display: flex;
         justify-content: center;
@@ -70,11 +70,13 @@
 }
 
 
-@media screen and (min-width: 501px) and (max-width:1200px) {
+@media screen and (min-width: 701px) {
     body {
         display: flex;
         /*flex-direction: column;*/
         flex-wrap: wrap;
+        max-width: 100%;
+        position: relative;
     }
 
     .hidden-on-desktop {
@@ -84,7 +86,8 @@
     nav {
         display: flex;
         width: 50%;
-        justify-content: flex-end;
+        align-items: end;
+        justify-content: end;
         /*flex-direction: row;*/
 
     }
@@ -93,26 +96,34 @@
         display: flex;
         /*margin-left: auto;*/
     }
-
+    .header-img {
+        display: flex;
+        justify-content: center;
+    }
+    img {
+        max-width: 90%;
+    }
 
     .nav-links li {
         list-style: none;
         padding: 0;
         margin: .5em;
     }
+
+
+    h1{
+        width:50%;
+        /*flex-direction: row;*/
+    }
+
+    .sub-section{
+        margin-left: 1em;
+        width: 25%;
+        display: inline-block;
+    }
+
+    .main{
+        width: 70%
+    }
 }
 
-h1{
-    width:50%;
-    /*flex-direction: row;*/
-}
-
-.sub-section{
-    margin-left: 1em;
-    width: 25%;
-    display: inline-block;
-}
-
-.main{
-    width: 70%
-}
