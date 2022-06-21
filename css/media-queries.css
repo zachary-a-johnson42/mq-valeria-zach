@@ -1,6 +1,6 @@
 
 /* Small devices (phones and pocket devices, 374 and up) */
-@media screen and (max-width:374px)  {
+@media screen and (max-width:700px)  {
     body {
         display: flex;
         justify-content: center;
@@ -19,6 +19,7 @@
         justify-content: center;
         padding-top: 1em;
         padding-bottom: 1em;
+        align-items: center;
     }
 
     a {
@@ -26,7 +27,7 @@
     }
 
     img {
-        margin: 1em;
+        content: url("https://via.placeholder.com/339x224?")
     }
 
     ul {
@@ -35,6 +36,7 @@
         align-items: center;
         width: 100%;
         flex-grow: 1;
+        padding: 0;
     }
     li {
         list-style: none;
@@ -42,13 +44,36 @@
         padding: 1em;
         background: darkgrey;
         margin: .5em;
-        flex-grow: 1;
+        width:calc(100% - 2em);
+        justify-content: center;
+        text-align: center;
     }
     nav {
         width: 100%;
     }
 }
 
+div{
+    display: flex;
+    justify-content: center;
+    width: calc(100% - .25em)
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+p{
+    float: left;
+}
+
+
+
+/*
+*/
 /*!* Medium devices (tablets, 768px and up) *!*/
 /*@media screen and (min-width:768px) {*/
 /*    body {*/
