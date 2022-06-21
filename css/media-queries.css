@@ -1,12 +1,22 @@
 
 /* Small devices (phones and pocket devices, 374 and up) */
-@media screen and (max-width:700px)  {
+/*@media screen and (max-width:700px)  {*/
+/*    body {*/
+/*        display: flex;*/
+/*        justify-content: center;*/
+/*        align-items: center;*/
+/*        flex-direction: column;*/
+/*    }*/
+
+/* screen sizes between 960px and 1200px */
+@media screen and (min-width:500px) and (max-width:1200px) {
     body {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
+}
 
     .alert-info {
         background-color: lightblue;
