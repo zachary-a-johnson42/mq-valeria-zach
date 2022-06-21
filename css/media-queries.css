@@ -1,0 +1,30 @@
+* {
+    font-size: 3vw;
+}
+
+/* Small devices (phones and pocket devices, 374 and up) */
+@media screen and (min-width:374px) {
+    body {
+        background-color: blue;
+    }
+}
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width:768px) {
+    body {
+        background-color: red;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width:992px) {
+    body {
+        background-color: gold;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width:1200px) {
+    body {
+        background-color: pink;
+    }
+}
